@@ -26,11 +26,11 @@ public class SendMail {
 	}
 
 	public static void main(String[] args) throws Exception {
-		final String smtp = "smtp.office365.com";
-		final String username = "jxsmtp101@outlook.com";
-		final String password = "java-12345678";
-		final String from = "jxsmtp101@outlook.com";
-		final String to = "javacourse001@sina.com";
+		final String smtp = "smtp.gmail.com";
+		final String username = "maywzhpro@gmail.com";
+		final String password = "i698485876";
+		final String from = "maywzhpro@gmail.com";
+		final String to = "maywzh@qq.com";
 		SendMail sender = new SendMail(smtp, username, password);
 		Session session = sender.createTLSSession();
 		Message message = createTextMessage(session, from, to, "JavaMail邮件", "Hello, 这是一封来自javamail的邮件！");
