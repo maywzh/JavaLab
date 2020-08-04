@@ -1,11 +1,13 @@
-package com.maywzh.reen;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
-import java.util.*;
-import java.util.concurrent.*;
+// A blocking quque
 
-class TaskQueue {
+public class TaskQueue {
     private final Lock lock = new ReentrantLock();
-    private final Condition condition = lock.newCondition();
+    private final Condition cond = lock.newCondition();
     private Queue<String> queue = new LinkedList<>();
 
     public void addTask(String s) {
@@ -19,12 +21,6 @@ class TaskQueue {
     }
 
     public String getTask() {
-        // if (condition.await(1, TimeUnit.SECOND)) {
-        // // 被其他线程唤醒
-        // } else {
-        // // 指定时间内没有被其他线程唤醒
-        // }
-
         lock.lock();
         try {
             while (queue.isEmpty()) {
