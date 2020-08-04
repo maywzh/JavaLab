@@ -1,4 +1,4 @@
-package com.itranswarp.learnjava;
+package com.maywzh.learnjava;
 
 public class Student {
 
