@@ -30,4 +30,11 @@ class Person {
 	/**
 	 * TODO: 覆写equals方法
 	 */
+	public boolean equals(Object o) {
+		if (o instanceof Person) {
+			Person p = (Person) o;
+			return this.firstName.equals(p.firstName) && this.lastName.equals(p.lastName) && this.age == p.age;
+		}
+		return false;
+	}
 }
