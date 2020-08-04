@@ -1,4 +1,4 @@
-package com.itranswarp.learnjava;
+package com.maywzh.learnjava;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

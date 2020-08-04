@@ -1,4 +1,4 @@
-package com.itranswarp.learnjava;
+package com.maywzh.learnjava;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -26,18 +26,18 @@ public class Server {
 			// 发送:
 			String resp = "bad command";
 			switch (cmd) {
-			case "date":
-				resp = LocalDate.now().toString();
-				break;
-			case "time":
-				resp = LocalTime.now().withNano(0).toString();
-				break;
-			case "datetime":
-				resp = LocalDateTime.now().withNano(0).toString();
-				break;
-			case "weather":
-				resp = "sunny, 10~15 C.";
-				break;
+				case "date":
+					resp = LocalDate.now().toString();
+					break;
+				case "time":
+					resp = LocalTime.now().withNano(0).toString();
+					break;
+				case "datetime":
+					resp = LocalDateTime.now().withNano(0).toString();
+					break;
+				case "weather":
+					resp = "sunny, 10~15 C.";
+					break;
 			}
 			System.out.println(cmd + " >>> " + resp);
 			packet.setData(resp.getBytes(StandardCharsets.UTF_8));
