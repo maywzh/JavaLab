@@ -9,9 +9,9 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
+ * Learn Java from https://www.maywzh.com/
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Server {
 	public static void main(String[] args) throws IOException {

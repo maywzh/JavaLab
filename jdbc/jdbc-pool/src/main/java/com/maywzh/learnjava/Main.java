@@ -15,7 +15,7 @@ import com.zaxxer.hikari.HikariDataSource;
 /**
  * App entry for Maven project.
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Main {
 

@@ -12,9 +12,9 @@ import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
+ * Learn Java from https://www.maywzh.com/
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Server {
 	public static void main(String[] args) throws IOException {

@@ -3,9 +3,9 @@ package com.maywzh.learnjava;
 import java.util.*;
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
+ * Learn Java from https://www.maywzh.com/
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Main {
 	public static void main(String[] args) {
@@ -26,7 +26,7 @@ class Person {
 		this.lastName = lastName;
 		this.age = age;
 	}
-	
+
 	/**
 	 * TODO: 覆写equals方法
 	 */

@@ -18,9 +18,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
+ * Learn Java from https://www.maywzh.com/
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Main {
 

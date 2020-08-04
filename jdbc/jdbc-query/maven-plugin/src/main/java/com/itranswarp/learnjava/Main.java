@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 /**
  * App entry for Maven project.
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Main {
 

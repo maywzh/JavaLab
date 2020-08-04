@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * App entry for Maven project.
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Main {
 

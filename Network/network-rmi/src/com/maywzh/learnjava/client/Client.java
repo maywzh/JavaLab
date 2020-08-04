@@ -9,9 +9,9 @@ import java.time.LocalDateTime;
 import com.maywzh.learnjava.shared.WorldClock;
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
+ * Learn Java from https://www.maywzh.com/
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Client {
 
