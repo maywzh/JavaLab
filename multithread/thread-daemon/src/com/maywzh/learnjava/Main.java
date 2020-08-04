@@ -1,9 +1,9 @@
 package com.maywzh.learnjava;
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
+ * Learn Java from https://www.maywzh.com/
  * 
- * @author liaoxuefeng
+ * @author maywzh
  */
 public class Main {
 
