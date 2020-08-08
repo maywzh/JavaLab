@@ -1,4 +1,3 @@
-package sortdemo;
 
 import java.util.Arrays;
 
