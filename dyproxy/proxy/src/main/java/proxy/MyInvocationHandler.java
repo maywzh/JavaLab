@@ -27,6 +27,5 @@ public class MyInvocationHandler implements InvocationHandler {
             Object result = method.invoke(target, args);
             return result;
         }
-        return null;
     }
 }
