@@ -1,4 +1,4 @@
-package proxy;
+package com.apple.eawt;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

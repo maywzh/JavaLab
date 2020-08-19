@@ -1,4 +1,6 @@
-package proxy;
+package com.proxy;
+
+import net.sf.cglib.proxy.Enhancer;
 
 public class UserServiceImpl implements UserService {
     @Override
