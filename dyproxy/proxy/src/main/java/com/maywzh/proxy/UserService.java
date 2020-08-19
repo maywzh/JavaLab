@@ -1,4 +1,4 @@
-package com.proxy;
+package com.maywzh.proxy;
 
 public interface UserService {
     public String getName(int id);

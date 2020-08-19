@@ -1,4 +1,4 @@
-package com.proxy;
+package com.maywzh.proxy;
 
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
