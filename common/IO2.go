@@ -16,4 +16,5 @@ func main() {
 		a1, _ := strconv.Atoi(a[1])
 		fmt.Println(a0 + a1)
 	}
+	fmt.Sprintf("%.2f", 3.456465)
 }
